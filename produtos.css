@@ -1,0 +1,92 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 10;
+    padding: 10;
+    color: #4d4848;
+    background-image: url("background.webp");
+}
+
+header {
+    background-color: #6cb865;
+    color: white;
+    text-align:center;
+    padding: 10px 0;
+    background-image: url("background.webp");
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 2.2em;
+    margin-bottom: 40px;
+}
+
+nav ul {
+    list-style-type:initial;
+    padding: 10;
+    display:inline-block;
+    justify-content: center;
+}
+
+nav li {
+    margin: 12 20px;
+}
+
+nav a {
+    text-decoration:overline;
+    color: white;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #5dac03;
+}
+
+.produtos {
+    list-style:outside;
+    display:inline;
+    justify-content:center;
+    padding: 20;
+    margin: 20px;
+}
+
+.produtos li {
+    flex: 10;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(240, 239, 239, 0.1);
+    padding: 20px;
+    margin-right: 20px;
+    text-align:center;
+}
+
+.produtos h2 {
+    color: #6cb865;
+    margin-bottom: 10px;
+}
+
+.produtos img {
+    max-width: 200%;
+    height: 200px;
+    margin-bottom: 35px;
+}
+
+.preco {
+    font-weight: lighter;
+    color: #e5564d;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+p {
+    line-height: 2.6;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration:overline;
+}
